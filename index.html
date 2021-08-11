@@ -107,9 +107,9 @@
         <section class="mainpage">
             <div class="container">
                 <h2>Главная страница</h2>
-                <div class="mainpage__scroll">
+                <div class="mainpage__scroll wow fadeIn">
                     <img src="img/light.jpg" alt="" class="mainpage__top">
-                    <div class="mainpage__box wow fadeIn">
+                    <div class="mainpage__box">
                         <img src="img/site.png" alt="">
                     </div>
                 </div>
@@ -214,7 +214,7 @@
                             <p>За 15 дней сделали удобный и современный сайт с бюджетом до 40 т.р., в котором реализованы все необходимые для пользователя функции</p>
                             <div class="user">
                                 <div class="img">
-                                    <img src="img/" alt="">
+                                    <img src="img/user.jpg" alt="">
                                 </div>
                                 <div class="name">
                                     <h4>Александр Кириллов</h4>
@@ -283,6 +283,14 @@
         slidesToScroll: 1,
         dots: false,
         arrows: false,
+        responsive: [
+            {
+            breakpoint: 765,
+            settings: {
+                slidesToShow: 2.2,
+            }
+            }
+        ]
         });
     </script>
 </body>
