@@ -72,7 +72,7 @@
         line-height: 125%;
     }
     .module {
-        padding: 64px 0 112px;
+        padding: 64px 0 80px;
     }
     .module__title p, .module__title span {
         display: none;
@@ -82,8 +82,7 @@
         line-height: 125%;
     }
     .module__table {
-        height: 174px;
-        border: 2px solid #FFFFFF;
+        height: 220px;
         border-radius: 8px;
     }
     .card {
