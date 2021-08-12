@@ -180,15 +180,15 @@ ul, ol {
   border-radius: 16px;
   overflow: hidden;
   position: relative; }
-  .module__table video {
+  .module__table img {
     width: 167%;
     height: auto;
     position: absolute;
     top: 47%;
     left: 50%;
-    -webkit-transform: translate(-49.6%, -50%);
-    -ms-transform: translate(-49.6%, -50%);
-    transform: translate(-49.6%, -50%); }
+    -webkit-transform: translate(-49.65%, -50%);
+    -ms-transform: translate(-49.65%, -50%);
+    transform: translate(-49.65%, -50%); }
 
 .card {
   padding: 80px 0 100px;
